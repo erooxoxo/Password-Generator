@@ -1,0 +1,75 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center vertically within the viewport */
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px; /* Increase padding to create more space around the container */
+    background-color: #3d3d3d;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 10px; /* Add margin to create space below the heading */
+}
+
+.password-container {
+    padding: 20px;
+    margin: 0;
+    text-align: center; /* Add this to center-align the text within the container */
+}
+
+#password {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; /* Increase margin to create more space below the password field */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#generate-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px; /* Add margin to create space between the password field and the button */
+}
+
+#generate-button:hover {
+    background-color: #004691;
+}
+
+/* style.css */
+
+/* Visually hide the button while keeping it accessible */
+#copy-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10px; /* Add margin to create space between the password field and the button */
+}
+
+#copy-button:hover {
+    background-color: #004691;
+}
